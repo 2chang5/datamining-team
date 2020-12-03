@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <tool-bar></tool-bar>
-    <router-view></router-view>
+    <shopping></shopping>
   </div>
 </template>
 
 <script>
-import ToolBar from './components/Toolbar';
+
+import Shopping from './views/shopping.vue'
 
 export default {
   components: {
-    ToolBar
+    Shopping
   },
 }
 </script>
